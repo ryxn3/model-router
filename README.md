@@ -63,6 +63,8 @@ Opus costs several times more per token than Sonnet, and Sonnet costs several ti
 
    The numbers above are real output from `route.py` for this plan.
 
+   ![Terminal output of route.py showing a three-part plan with tiers, costs, and the switch plan](docs/images/route-plan.png)
+
 5. Follow the switch prompts. When it says `/model sonnet`, run that command, then reply `continue`.
 
 ## How it works
@@ -160,6 +162,8 @@ The report shows:
 - **Recent tasks**: a table with tier chips per task.
 
 It follows your system light/dark setting.
+
+![Savings report with KPI tiles, cost-per-task bars, a tier donut chart, and a recent-tasks table](docs/images/savings-report.png)
 
 Run it yourself:
 
@@ -291,6 +295,8 @@ Prices are in `pricing.json`, in USD per million tokens:
 ├── README.md                     ← you are here
 ├── INSTALL.md                    ← install, update, uninstall
 ├── CHANGELOG.md                  ← version history
+├── docs/
+│   └── images/                ← screenshots used in this README
 ├── .gitignore                    ← ignores .claude/model-router/
 └── .claude/
     └── skills/
