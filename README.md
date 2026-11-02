@@ -2,6 +2,21 @@
 
 A Claude Code skill that stops you paying Opus prices for work Haiku or Sonnet can do.
 
+## Install with one prompt
+
+Paste this into Claude Code and it installs the skill for you:
+
+```text
+Install the model-router skill from https://github.com/ryxn3/claude-model-calculator.
+Clone the repo to a temporary folder, copy .claude/skills/model-router into ~/.claude/skills/
+(create the folder if needed), delete the temporary clone, then run
+`python3 ~/.claude/skills/model-router/scripts/route.py --help` and
+`python3 ~/.claude/skills/model-router/scripts/report.py --help` to confirm both work.
+Tell me when it's done and remind me to start a new session. Don't change any other files.
+```
+
+Prefer to do it by hand? See [INSTALL.md](INSTALL.md).
+
 You select a model, ask for a task, and the skill breaks the task into parts. For each part it says which model is the cheapest one that can do it well. When a part needs a different model, it tells you to switch with `/model` and waits for you to say continue. When you ask how much you've saved, it builds a chart.
 
 - [Why](#why)
