@@ -1,0 +1,6 @@
+{
+  "_note": "USD per million tokens. These are default placeholder list prices, not verified current rates. Check Anthropic's pricing page and edit before quoting dollar savings.",
+  "haiku": {"input": 0.80, "output": 4.00},
+  "sonnet": {"input": 3.00, "output": 15.00},
+  "opus": {"input": 15.00, "output": 75.00}
+}
